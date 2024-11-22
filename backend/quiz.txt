@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "0:19",
+    "question": "What prior knowledge does the instructor expect students to have before learning about the attention mechanism?",
+    "options": [
+      "A) Understanding of convolutional neural networks",
+      "B) Knowledge of LSTMs and encoder-decoder architectures",
+      "C) Familiarity with support vector machines",
+      "D) Experience with reinforcement learning algorithms"
+    ],
+    "correct option": "B",
+    "short explanation": "The instructor expects students to be familiar with LSTMs and encoder-decoder architectures as prerequisites for understanding the attention mechanism."
+  },
+  {
+    "timestamp": "1:30",
+    "question": "What is the significance of the paper titled 'Attention is All You Need' mentioned by the instructor?",
+    "options": [
+      "A) It introduced the concept of LSTMs",
+      "B) It presented the Transformer architecture",
+      "C) It proposed a new activation function",
+      "D) It discussed convolutional networks for images"
+    ],
+    "correct option": "B",
+    "short explanation": "The instructor notes that the 2017 paper 'Attention is All You Need' introduced the Transformer architecture."
+  },
+  {
+    "timestamp": "2:43",
+    "question": "In the context of encoder-decoder architectures, what does the instructor refer to as the 'context vector' or 'thought vector'?",
+    "options": [
+      "A) The embedding of the first input word",
+      "B) The output hidden state of the last word in the encoder",
+      "C) The initial hidden state of the decoder",
+      "D) The concatenation of all hidden states in the encoder"
+    ],
+    "correct option": "B",
+    "short explanation": "The context vector, also called the thought vector, is the output hidden state of the last word in the encoder, containing information about the entire input sequence."
+  }
+]
