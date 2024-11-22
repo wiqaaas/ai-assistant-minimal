@@ -142,7 +142,7 @@ def process_transcript(transcript: str):
                 {"role": "user", "content": f"Summarize the video transcript into bullet points highlighting main ideas and key takeaways:\n\n{transcript}"}
             ]
         )
-        summary = response.choices[0].message.content
+        summary = response.choices[0].message.content.strip()
 
         quiz_items = extract_quiz('quiz.txt')
         formatted_quiz = [
