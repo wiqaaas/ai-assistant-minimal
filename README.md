@@ -57,7 +57,7 @@ This project consists of a Flask backend and a React frontend. Follow the steps 
    ```bash
    cd frontend/src/lib
    nano api.js
-   # change from local host to the ip of ec2 on 2nd line
+   # (API_URL) change from local host to the ip of ec2 on 2nd line 
    ```
 
 5. Run the React app:
@@ -76,7 +76,7 @@ This project consists of a Flask backend and a React frontend. Follow the steps 
 
 2. Start the React app:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ---
