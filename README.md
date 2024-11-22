@@ -13,16 +13,28 @@ This project consists of a Flask backend and a React frontend. Follow the steps 
 
 ## Backend Setup
 
-1. Navigate to the `backend` directory:
+1. Create Virtual Environment
+   ```
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+2. Navigate to the `backend` directory:
    ```bash
    cd backend
    ```
 
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the Flask server:
+4. Get openai api key:
+   ```
+   touch .env
+   Copy: OPENAI_API_KEY=sk-proj-RnNs..........
+   ```
+
+6. Run the Flask server:
    ```bash
    python app.py
    ```
@@ -38,12 +50,19 @@ This project consists of a Flask backend and a React frontend. Follow the steps 
 
 2. Install dependencies:
    ```bash
+   sudo apt install npm
    npm install
    ```
-
-3. Run the React app:
+3. Change the ip address:
    ```bash
-   npm start
+   cd frontend/src/lib
+   nano api.js
+   # change from local host to the ip of ec2 on 2nd line
+   ```
+
+5. Run the React app:
+   ```bash
+   npm run dev
    ```
 
 ---
@@ -63,7 +82,6 @@ This project consists of a Flask backend and a React frontend. Follow the steps 
 ---
 
 ## Notes
-
 - The Flask server runs on port 5000.
-- The React app runs on port 3000.
+- The React app runs on port 5173.
 
